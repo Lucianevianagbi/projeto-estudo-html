@@ -1,0 +1,107 @@
+body {
+  width: 95%;
+  max-width: 800%;
+  margin: auto;
+  background: url(img/back3.jpg) no-repeat center;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f2f2f2;
+  line-height: 1.5;
+}
+
+img {
+  width: 30%;
+  text-align: center;
+  padding: 20px 15px;
+  border-radius: 25px;
+}
+
+#logo {
+  margin-right: auto;
+}
+
+#logo img {
+  width: 200px;
+  transition: all .3s linear;
+}
+
+#logo img:hover {
+  transform: scale(1.1);
+}
+
+main {
+  background: #0000007a;
+  padding: 10px 80px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+#fotos {
+  width: 100%;
+  position: relative;
+}
+
+#fotos img {
+  transition: all 1s linear;
+}
+
+#fotos img:hover {
+  transform: scale(1.01);
+  top: -2px;
+  box-shadow: 0 0 3px 3px #666;
+}
+
+nav a {
+  display: inline-block;
+  align-items: center;
+  color: #f2f2f2;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 5px 7px 3px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+nav ul {
+  float: right;
+  margin-right: 40px;
+  display: inherit;
+
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 40px;
+}
+
+a {
+  border: 2px solid transparent;
+  transition: 0.3s linear;
+}
+
+a.active, a:hover {
+  border: 2px solid #000;
+  border-radius: 30px;
+}
